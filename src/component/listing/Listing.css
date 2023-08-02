@@ -1,43 +1,53 @@
 .filter {
-    background-color: #f8f9fa;
-    padding: 20px;
-    padding-top:20px;
-    float: left;
-  
-  }
- 
-  h3{
-    padding-left: 42px;
-  }
-  
-  .items {
-    padding: px;
-  }
-   .item {
-    
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 1px;
-    border: 1px solid #ddd;
-    float: left;
-    margin-left:2%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding-top:20px;
+  float: left;
+
+}
+
+h3{
+  padding-left: 42px;
+}
+
+
+.items {
+gap:3em;
+  flex-wrap: wrap;
+  align-items: center;
+  /* margin: 2px; */
+ display: flex;
+  padding: 5px;
+  border: 1px solid #ddd;
+  /* float: left; */
+  margin-left:5px;
+  border-radius: 10px;
+}
+.item img {
+  width: 230px;
+  height: 280px;
+  object-fit: cover;
+  margin-right: 1px;
+  border-radius: 10px;
+  /* float: left; */}
+
+  #itembox {
+    border: 1px solid black;
     border-radius: 10px;
-  }
-  .item img {
-    width: 220px;
-    height: 280px;
-    object-fit: cover;
-    margin-right: 1px;
-    border-radius: 10px;
-    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    width: auto;
+
     
-  }
-  .item-info {
-    flex-grow: 1;
+    
   }
   .item-name {
     font-weight: bold;
     margin-bottom: 5px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    
+    
   }
   .item-price {
     color: #007bff;
@@ -47,27 +57,7 @@
     color: gold;
     margin-bottom: 5px;
   }
-  
-  .col-md-3.filter {
-    position: fixed;
-    top: 90px;
-    z-index: 9;
-    width: 320px;
-    bottom: 0;
-    padding-left: 75px;
-  }
-  .col-md-3 filter p{
-    padding-left: 25px;
-    
-  }
-  .col-md-9 {
-    margin-left: 120%;
-    margin-top: 3%;
-    display: grid;
-    
-     
-  }
-  .productDiv{
+  /* .productDiv{
     margin-left: 330px;
-    padding-top: 25px;
-  }
+    padding-top: 25px;
+  } */

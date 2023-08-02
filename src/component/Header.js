@@ -12,7 +12,7 @@ const Header = () => {
       .then((res) => res.json())
       .then((data) => {
         setCategory(data);
-        console.log(data);
+      
       });
   }, []);
 

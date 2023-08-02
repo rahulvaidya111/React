@@ -3,7 +3,9 @@
     justify-content: space-between;
 
 }
-
+.imgcontainer{
+    /* float: left; */
+}
 .img-fluid {
     border: 1px solid black;
     margin: .8px;
@@ -15,21 +17,25 @@
     margin: .8px;
     border-radius: 10px;
 }
-.col-7 h6,h2{
+.ProductData h6,h2{
     margin-left: 41px;
     color: rgb(63, 63, 72);
 }
-.col-7 ul{
+.ProductData{
+    
+    
+}
+.ProductData ul{
     margin-left: 41px;
    
 }
-.my-3{
+.size{
    margin-left: 49px; 
    color: antiquewhite;
    background-color: black; 
 
 }
-.buy-btn {
+.Cart {
     width: 397px;
     margin-left: 25px;
     height: 44px;

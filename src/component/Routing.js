@@ -16,7 +16,7 @@ const Routing = () => {
             <BrowserRouter>
             <Header/>
             <Routes>
-                <Route path="/" element={<Main/>}>
+                    <Route path="/" element={<Main/>}>
 
                     <Route index element={<Home/>}/>
                     <Route path="home" element={<home/>}/>

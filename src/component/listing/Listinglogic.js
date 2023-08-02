@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from 'react';
 import {useParams} from 'react-router-dom';
-import './Listing.css';
 import Listingitem from './Listingitem'
 import axios from 'axios';
 
@@ -14,6 +13,7 @@ const Listinglogic = () => {
         .then((res) => res.json())
         .then((data) => {
             setSimilarItem(data)
+            console.log(data);
         })
     },[])
 
@@ -23,7 +23,7 @@ const Listinglogic = () => {
     <div className='row'>
         <div id="mainListing">
             <div id="filter">
-            <div className="col-md-3 filter">
+            <div className="col-md-2 filter">
         <h3>Filter</h3>
         <p>Customer Rating</p>
         <form action="/action_page.php" className='Rating'>
